@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'Passion One';
-    src: url(fonts/PassionOne-Bold.ttf) format(truetype), url(fonts/PassionOne-Regular.ttf) format(truetype), url(fonts/PassionOne-Black.ttf) format(truetype);
+    src: url(../fonts/PassionOne-Bold.ttf) format(truetype), url(../fonts/PassionOne-Regular.ttf) format(truetype), url(../fonts/PassionOne-Black.ttf) format(truetype);
 }
 
 @font-face {
     font-family: 'Sriracha';
-    src: url(fonts/Sriracha-Regular.ttf) format(truetype);
+    src: url(../fonts/Sriracha-Regular.ttf) format(truetype);
 }
 
 :root {
@@ -89,12 +89,12 @@ section > p {
 }
 
 #back1 {
-    background: url(imagens/background001.jpg) no-repeat center right fixed;
+    background: url(../imagens/background001.jpg) no-repeat center right fixed;
     background-size: cover;
 }
 
 #back2 {
-    background: url(imagens/background002.jpg) no-repeat left center fixed;
+    background: url(../imagens/background002.jpg) no-repeat left center fixed;
     background-size: cover;
 }
 
