@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Passion One';
+    src: url(fonts/PassionOne-Bold.ttf) format(truetype), url(fonts/PassionOne-Regular.ttf) format(truetype), url(fonts/PassionOne-Black.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(fonts/Sriracha-Regular.ttf) format(truetype);
+}
+
+:root {
+    --font-destaque: 'Passion One', cursive;
+    --font-conteudo: 'Sriracha', cursive;
+    --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font-padrao);
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-size: 10vw;
+    font-family: var(--font-destaque);
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+    font-size: 3.5vw;
+    font-family: var(--font-conteudo);
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.image {
+    background-color: rgb(87, 87, 87);
+    color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.400);
+}
+
+.image > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0);
+}
+
+#back1 {
+    background: url(imagens/background001.jpg) no-repeat center right fixed;
+    background-size: cover;
+}
+
+#back2 {
+    background: url(imagens/background002.jpg) no-repeat left center fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
